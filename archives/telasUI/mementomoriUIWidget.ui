@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="lblBackground">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>720</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>1280</width>
+     <height>720</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1280</width>
+     <height>720</height>
+    </size>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../img/MEMENTO MORI (2).png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_2">
+   <property name="geometry">
+    <rect>
+     <x>524</x>
+     <y>9</y>
+     <width>132</width>
+     <height>132</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 35px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_7">
+   <property name="geometry">
+    <rect>
+     <x>1079</x>
+     <y>150</y>
+     <width>132</width>
+     <height>132</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 35px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_24">
+   <property name="geometry">
+    <rect>
+     <x>524</x>
+     <y>430</y>
+     <width>132</width>
+     <height>132</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 35px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_28">
+   <property name="geometry">
+    <rect>
+     <x>802</x>
+     <y>571</y>
+     <width>132</width>
+     <height>132</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 35px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_17">
+   <property name="geometry">
+    <rect>
+     <x>662</x>
+     <y>289</y>
+     <width>132</width>
+     <height>132</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 35px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblp1_2">
+   <property name="geometry">
+    <rect>
+     <x>105</x>
+     <y>100</y>
+     <width>160</width>
+     <height>135</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../icons/variouscards.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>98</x>
+     <y>498</y>
+     <width>71</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>40</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(95,150,255)</string>
+   </property>
+   <property name="text">
+    <string>P2:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblPlayer1Points">
+   <property name="geometry">
+    <rect>
+     <x>168</x>
+     <y>188</y>
+     <width>181</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>40</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(95,150,255)</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_18">
+   <property name="geometry">
+    <rect>
+     <x>662</x>
+     <y>430</y>
+     <width>132</width>
+     <height>132</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 35px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_4">
+   <property name="geometry">
+    <rect>
+     <x>802</x>
+     <y>9</y>
+     <width>132</width>
+     <height>132</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 35px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_12">
+   <property name="geometry">
+    <rect>
+     <x>802</x>
+     <y>150</y>
+     <width>132</width>
+     <height>132</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 35px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_19">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>289</y>
+     <width>132</width>
+     <height>132</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 35px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_1">
+   <property name="geometry">
+    <rect>
+     <x>385</x>
+     <y>9</y>
+     <width>132</width>
+     <height>132</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 35px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>98</x>
+     <y>188</y>
+     <width>71</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>40</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(95,150,255)</string>
+   </property>
+   <property name="text">
+    <string>P1:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblp2_4">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>400</y>
+     <width>160</width>
+     <height>135</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../icons/variouscards.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_27">
+   <property name="geometry">
+    <rect>
+     <x>524</x>
+     <y>571</y>
+     <width>132</width>
+     <height>132</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 35px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_8">
+   <property name="geometry">
+    <rect>
+     <x>662</x>
+     <y>150</y>
+     <width>132</width>
+     <height>132</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 35px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblp1_1">
+   <property name="geometry">
+    <rect>
+     <x>78</x>
+     <y>100</y>
+     <width>160</width>
+     <height>135</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../icons/variouscards.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblp2_1">
+   <property name="geometry">
+    <rect>
+     <x>78</x>
+     <y>400</y>
+     <width>160</width>
+     <height>135</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../icons/variouscards.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblp2_3">
+   <property name="geometry">
+    <rect>
+     <x>132</x>
+     <y>400</y>
+     <width>160</width>
+     <height>135</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../icons/variouscards.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_25">
+   <property name="geometry">
+    <rect>
+     <x>385</x>
+     <y>571</y>
+     <width>132</width>
+     <height>132</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 35px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_15">
+   <property name="geometry">
+    <rect>
+     <x>1079</x>
+     <y>289</y>
+     <width>132</width>
+     <height>132</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 35px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_23">
+   <property name="geometry">
+    <rect>
+     <x>802</x>
+     <y>289</y>
+     <width>132</width>
+     <height>132</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 35px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_6">
+   <property name="geometry">
+    <rect>
+     <x>1079</x>
+     <y>9</y>
+     <width>132</width>
+     <height>132</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 35px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_9">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>150</y>
+     <width>132</width>
+     <height>132</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 35px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_11">
+   <property name="geometry">
+    <rect>
+     <x>385</x>
+     <y>150</y>
+     <width>132</width>
+     <height>132</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 35px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_26">
+   <property name="geometry">
+    <rect>
+     <x>662</x>
+     <y>571</y>
+     <width>132</width>
+     <height>132</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 35px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_0">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>571</y>
+     <width>132</width>
+     <height>132</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 35px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_13">
+   <property name="geometry">
+    <rect>
+     <x>385</x>
+     <y>430</y>
+     <width>132</width>
+     <height>132</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 35px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_29">
+   <property name="geometry">
+    <rect>
+     <x>1079</x>
+     <y>571</y>
+     <width>132</width>
+     <height>132</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 35px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_22">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>430</y>
+     <width>132</width>
+     <height>132</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 35px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_14">
+   <property name="geometry">
+    <rect>
+     <x>1079</x>
+     <y>430</y>
+     <width>132</width>
+     <height>132</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 35px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_3">
+   <property name="geometry">
+    <rect>
+     <x>662</x>
+     <y>9</y>
+     <width>132</width>
+     <height>132</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 35px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblPlayer2Points">
+   <property name="geometry">
+    <rect>
+     <x>168</x>
+     <y>498</y>
+     <width>181</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>40</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(95,150,255)</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_5">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>9</y>
+     <width>132</width>
+     <height>132</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 35px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblp1_4">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>100</y>
+     <width>160</width>
+     <height>135</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../icons/variouscards.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_16">
+   <property name="geometry">
+    <rect>
+     <x>802</x>
+     <y>430</y>
+     <width>132</width>
+     <height>132</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 35px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_20">
+   <property name="geometry">
+    <rect>
+     <x>524</x>
+     <y>289</y>
+     <width>132</width>
+     <height>132</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 35px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_10">
+   <property name="geometry">
+    <rect>
+     <x>524</x>
+     <y>150</y>
+     <width>132</width>
+     <height>132</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 35px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_21">
+   <property name="geometry">
+    <rect>
+     <x>385</x>
+     <y>289</y>
+     <width>132</width>
+     <height>132</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 35px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblp1_3">
+   <property name="geometry">
+    <rect>
+     <x>132</x>
+     <y>100</y>
+     <width>160</width>
+     <height>135</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../icons/variouscards.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblp2_2">
+   <property name="geometry">
+    <rect>
+     <x>105</x>
+     <y>400</y>
+     <width>160</width>
+     <height>135</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../icons/variouscards.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSecondPlayer">
+   <property name="geometry">
+    <rect>
+     <x>79</x>
+     <y>650</y>
+     <width>271</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>22</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 25px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string>Join 2° Player</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnReset">
+   <property name="geometry">
+    <rect>
+     <x>144</x>
+     <y>340</y>
+     <width>131</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 20px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string>RESET</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblTurn">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>10</y>
+     <width>271</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>31</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 35px; 
+background-color: rgb(52, 59, 132);
+color: rgb(255, 205, 105);</string>
+   </property>
+   <property name="text">
+    <string>Player 1 Turn</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <zorder>lblBackground</zorder>
+  <zorder>btn_2</zorder>
+  <zorder>btn_7</zorder>
+  <zorder>btn_24</zorder>
+  <zorder>btn_28</zorder>
+  <zorder>btn_17</zorder>
+  <zorder>label_2</zorder>
+  <zorder>btn_18</zorder>
+  <zorder>btn_4</zorder>
+  <zorder>btn_12</zorder>
+  <zorder>btn_19</zorder>
+  <zorder>btn_1</zorder>
+  <zorder>btn_27</zorder>
+  <zorder>btn_8</zorder>
+  <zorder>lblp1_1</zorder>
+  <zorder>lblp2_1</zorder>
+  <zorder>btn_25</zorder>
+  <zorder>btn_15</zorder>
+  <zorder>btn_23</zorder>
+  <zorder>btn_6</zorder>
+  <zorder>btn_9</zorder>
+  <zorder>btn_11</zorder>
+  <zorder>btn_26</zorder>
+  <zorder>btn_0</zorder>
+  <zorder>btn_13</zorder>
+  <zorder>btn_29</zorder>
+  <zorder>btn_22</zorder>
+  <zorder>btn_14</zorder>
+  <zorder>btn_3</zorder>
+  <zorder>lblPlayer2Points</zorder>
+  <zorder>btn_5</zorder>
+  <zorder>btn_16</zorder>
+  <zorder>btn_20</zorder>
+  <zorder>btn_10</zorder>
+  <zorder>btn_21</zorder>
+  <zorder>lblp2_2</zorder>
+  <zorder>lblp2_3</zorder>
+  <zorder>lblp2_4</zorder>
+  <zorder>lblp1_2</zorder>
+  <zorder>lblp1_3</zorder>
+  <zorder>lblp1_4</zorder>
+  <zorder>btnSecondPlayer</zorder>
+  <zorder>btnReset</zorder>
+  <zorder>label</zorder>
+  <zorder>lblPlayer1Points</zorder>
+  <zorder>lblTurn</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

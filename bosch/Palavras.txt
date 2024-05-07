@@ -1,0 +1,4 @@
+INSTRUTORES|,Clebinho,Leonardo,Ianella,Vanessa,Tayssa,
+FRUTAS|,Kiwi,Maça,Morango,Tomate,Laranja,Abacaxi,
+CORES|,Amarelo,Roxo,
+MARCA DE CELULAR|,Redmi,Motorola,Samsung,Apple,
